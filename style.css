@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.containerModal {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    overflow: hidden;
+    transition: 1s;
+}
+.backgroundModal {
+    background: rgba(10, 10, 10, .5);
+}
+.modal {
+    display: flex;
+    width: 33vw;
+    height: 30vh;
+    background: orange;
+    margin: auto;
+    text-align: center;
+    margin-right: -35vw;
+    transition: 1s;
+}
+
+.visible {
+    margin-right: 33vw;
+
+}
+.containerModal > h1 {
+    display: block;
+    margin: auto;
+}
+
+.myButton {
+    position: fixed;
+    /* z-index: 9; */
+    width: 10vw;
+    height: 10vh;
+    cursor: pointer;
+    background: white     ;
+
+}
